@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    }
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    padding: 10px 50px; 
+       }
+
+.navbar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 80px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+.navbar a:hover {
+    background-color: skyblue;
+    color: black;
+    border-radius: 5px;
+      }
+
+.logo {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: open sans and lato;
+     }
+
+.submenu {
+    display: flex; 
+    align-items: center
+     }
+
+.links {
+    display: inline;
+    margin:  15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+     }
+
+
+.landing-content {
+     background-image:url(backgourd.jpg);
+     background-size:cover ;
+     background-position:center;
+     background-repeat:no-repeat ;
+     height:60vh;
+     width:100%;
+     padding:0;
+     }
+  
+
+
+.landing-content h1 {
+    font-size: 48px;
+    padding: 150px 100px 10px 100px;
+    margin-left: 100px;
+    color: white;
+    }
+
+.landing-content p {
+    font-size: 24px;  
+    color: white;
+    padding: 0px 100px 10px 100px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+     }
+
+.btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+     margin-top: 100px;
+    margin-left: 450px;
+     }
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color:#ddd ;
+      }
+
+.feature-box {
+    background-color: skyblue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+      }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    background-color: #333;
+    color: white;
+       }
